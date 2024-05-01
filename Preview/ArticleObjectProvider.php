@@ -19,10 +19,10 @@ use Sulu\Bundle\ArticleBundle\Document\ArticleDocument;
 use Sulu\Bundle\ArticleBundle\Document\ArticlePageDocument;
 use Sulu\Bundle\ArticleBundle\Metadata\StructureTagTrait;
 use Sulu\Bundle\PreviewBundle\Preview\Object\PreviewObjectProviderInterface;
+use Sulu\Component\Content\Document\Extension\ExtensionContainer;
 use Sulu\Component\Content\Metadata\Factory\StructureMetadataFactoryInterface;
 use Sulu\Component\DocumentManager\DocumentManagerInterface;
 use Symfony\Component\PropertyAccess\PropertyAccess;
-use Sulu\Component\Content\Document\Extension\ExtensionContainer;
 
 /**
  * Integrates article items into preview-system.
